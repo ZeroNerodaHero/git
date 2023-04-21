@@ -218,7 +218,6 @@ vector<int> Network::distance_user(int from, int& to, int distance){
             return tp;
         }
         unordered_set<int> v = s.top().second;
-//cout << (v.find(tp.back()) == v.end() ? "not set" :"set") <<endl;
         s.pop(); 
         User source = get_user(tp.back());
         
