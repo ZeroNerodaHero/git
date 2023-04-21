@@ -12,7 +12,6 @@
 using namespace std;
 
 Network::Network(){}; 
-//hello
 void Network::add_user(User u){
     conn.push_back(u);
 }
